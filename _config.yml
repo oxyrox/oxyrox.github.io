@@ -5,6 +5,9 @@ description: Apps by oxyrox
 # 3 has skins, and `auto` follows the reader's light or dark system setting.
 # Pinned to a commit so an upstream change can't restyle or break the site.
 remote_theme: jekyll/minima@4de322363fca5927e6f4012cb94f6dad69ab5e6c
+# jekyll-feed and jekyll-seo-tag are required by minima 3's templates, not
+# chosen: its <head> calls {% feed_meta %}, which fails the build without the
+# feed plugin. There are no posts, so the footer's feed link is hidden below.
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -12,3 +15,4 @@ plugins:
 
 minima:
   skin: auto
+  hide_site_feed_link: true
