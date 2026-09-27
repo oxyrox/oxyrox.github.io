@@ -1,3 +1,14 @@
 title: oxyrox
 description: Apps by oxyrox
-theme: minima
+
+# Minima 3 from GitHub rather than the minima 2.5 GitHub Pages bundles: only
+# 3 has skins, and `auto` follows the reader's light or dark system setting.
+# Pinned to a commit so an upstream change can't restyle or break the site.
+remote_theme: jekyll/minima@4de322363fca5927e6f4012cb94f6dad69ab5e6c
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
