@@ -29,4 +29,4 @@ Analytics & Improvements**.
 **Changes.** If this policy ever changes, the new version will be posted here
 with a new date.
 
-**Questions:** [support@biggrunt.win](mailto:support@biggrunt.win)
+**Questions:** see the [Caveman Key support page](/caveman-key/).
